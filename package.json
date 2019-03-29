@@ -1,0 +1,44 @@
+{
+  "name": "npnrdwebapp",
+  "version": "0.1.0",
+  "description": "npnrd web app for db access",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Heath Kuntz",
+  "license": "GPLv3",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "excel4node": "^1.7.0",
+    "express": "^4.16.3",
+    "fs-extra": "^7.0.1",
+    "gravatar": "^1.6.0",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^8.2.0",
+    "mathjs": "^5.4.2",
+    "moment": "^2.23.0",
+    "mongoose": "^5.0.12",
+    "npm": "^6.4.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "prettier": "^1.14.3",
+    "react-confirm-alert": "^2.0.7",
+    "react-mailto": "^0.4.0",
+    "serve-index": "^1.9.1",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}

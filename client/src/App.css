@@ -1,0 +1,83 @@
+img {
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  background-size: cover;
+  background: url('./img/showcase.jpg') no-repeat center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+.certSelect {
+  z-index: 1;
+  cursor: pointer;
+}
+
+.filterbox {
+  border:  1px solid #c3c3c3;
+  border-radius: 10px;  
+  padding: 10px;
+}
+.serach-form {
+  display: inline;
+}
+.search-form-component {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.search-form-component .certSelect {
+  cursor: pointer;
+}
+
+tr {
+  cursor: pointer;
+}
+
+.form-check label{
+  cursor: pointer;
+}
+.css-vj8t7z {cursor: pointer;}
+
+.btn-group-toggle .btn-secondary {
+  z-index: inherit;
+}
+.fontawesome-action {
+  cursor: pointer;
+}
+.entity-card {
+  cursor: unset;
+}
+
+.primary-detail {
+  background: #eee;
+  padding: 20px 10px;
+  margin-bottom: 50px;
+}
+.fontawesome-action.active-icon { 
+  color:green;
+}
+.fontawesome-action.inactive-icon {
+  color:red;
+}
