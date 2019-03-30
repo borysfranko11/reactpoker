@@ -1,7 +1,7 @@
 {
-  "name": "npnrdwebapp",
+  "name": "wsotp",
   "version": "0.1.0",
-  "description": "npnrd web app for db access",
+  "description": "wsotp app for db access",
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
